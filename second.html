@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+    <style>
+      h2 {
+        text-align:center;
+        background-color:orange;
+        font-family:Verdana;
+      }
+      p, h5, h4, li, a, label {
+        font-family: Verdana;
+      }
+      table td {
+        vertical-align: text-top;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contact me</h2>
+<form class="Contact" action="second.html" method="post">
+  <label for="name">Your Name:
+  <input type="text" name="name" placeholder="Name" value="name">
+  </label><br>
+
+  <label>Phone Number:
+    <input type="text" name="phone" placeholder="Phone NUmber"><br>
+  </label>
+
+
+  <label>How you want to meet with me?<br>
+    <input type="radio" name="on-off" value="on">online
+    <input type="radio" name="on-off" value="off">offline
+  </label><br>
+
+  <label for="date" >When do you want to meet?
+    <input type="date" name="date" value="date">
+  </label><br>
+
+  <label for="email">Write your email
+    <input type="email" name="email" value="email">
+  </label><br>
+
+  <label for="hobbies">Choose your hobbies:</label>
+
+  <select id="hobbies">
+    <option value="Volleyball">Volleyball</option>
+    <option value="Tennis">Table tennis</option>
+    <option value="Anime">Anime</option>
+    <option value="Art">Art</option>
+  </select>
+
+  <button type="button" name="button">Submit</button>
+</form>
+    <a href="hw2_web.html"><strong>Go back</strong></a>
+  </body>
+</html>
